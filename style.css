@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Sneaky Times";
+    src: url("./assets/Sneaky-Times.woff2") format("woff2"); 
+  }
+
+body {
+    background-color: rgb(255, 223, 223);
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Sneaky Times";
+    font-size: 60pt;
+    color: rgb(255, 133, 133);
+    margin: 1rem auto ;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Sneaky Times";
+    font-size: 15pt;
+    color: rgb(151, 137, 137);
+    text-align: center;
+}
+
+p {
+    font-family: "Sneaky Times";
+    font-size: 20pt;
+    color: rgba(255, 150, 102, 0.295);
+    line-height: 40pt;
+    text-align: center;
+    margin: 3rem auto 5rem;
+}
+
+br {
+    line-height: 20pt;
+}
+
+.rotate:hover {
+    transform: rotate(330deg);
+    font-size: 100pt;
+    margin-top: 200pt;
+    margin-bottom: 200pt;
+    border-bottom: 10px double rgb(255, 133, 133);
+}
+
+.expand:hover {
+    color: rgb(255, 150, 102);
+    font-size: 30pt;
+    line-height: 36pt;
+    opacity: 1;
+}
+
+.pink {
+    border-bottom: 3px double rgb(255, 133, 133);
+}
+
+.brown {
+    border-bottom: 3px double rgb(146, 118, 102);
+}
+
+.yellow {
+    border-bottom: 3px double rgb(255, 238, 162);
+}
+
+.skyblue {
+    border-bottom: 3px double rgb(155, 232, 255);
+}
+
+.pink:hover {
+    color: rgb(255, 133, 133);
+    font-size: 50pt;
+    text-shadow: 1px 1px 1px rgb(255, 133, 133), 5px 5px 5px rgb(255, 150, 102);
+}
+
+.brown:hover {
+    color: rgb(146, 118, 102);
+    font-size: 50pt;
+    text-shadow: 1px 1px 1px rgb(146, 118, 102), 5px 5px 5px rgb(255, 150, 102);
+}
+
+.yellow:hover {
+    color: rgb(255, 238, 162);
+    font-size: 50pt;
+    text-shadow: 1px 1px 1px rgb(255, 238, 162), 5px 5px 5px rgb(255, 150, 102);
+}
+
+.skyblue:hover {
+    color: rgb(155, 232, 255);
+    font-size: 50pt;
+    text-shadow: 1px 1px 1px rgb(155, 232, 255), 5px 5px 5px rgb(255, 150, 102);
+}
